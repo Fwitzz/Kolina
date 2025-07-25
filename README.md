@@ -49,6 +49,30 @@ export MISTRAL_API_KEY=indsæt-din-nøgle-her
 
 i din startkommando.
 
+Du kan også sætte den til din PATH, for nemmere tilgang.
+
+Du skal desuden ændre filen kolina som sidder i:
+```bash
+usr/local/bin/kolina
+```
+Du skal indsætte din egen API-Nøgle i linjen der starter med "export", og fjerne linjen der starter med "echo".
+
+```bash
+
+#!/bin/bash
+cd /usr/share/kolina || exit 1
+
+# TEMP: hardcode key so it always works when launched from icon
+echo "Please set MISTRAL_API_KEY in your environment."
+# Or change this key to your own.
+export MISTRAL_API_KEY="Insert your key here."
+
+
+exec python3 main.py
+```
+
+Med disse ændringer, burde appen køre.
+
 ---
 
 ## Ubuntu Pakkeopslag
