@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /usr/share/kolina || exit 1
+
+# TEMP: hardcode key so it always works when launched from icon
+echo "Please set MISTRAL_API_KEY in your environment."
+# Or change this key to your own.
+export MISTRAL_API_KEY="Insert your key here."
+
+
+exec python3 main.py
+
+
+

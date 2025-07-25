@@ -1,0 +1,91 @@
+/* Info banner */
+.info-banner {
+  background: #fff3cd;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 8px 12px 0 12px;
+}
+.info-banner-icon {
+  font-weight: bold;
+  color: #8a6d00;
+  font-size: 15px;
+}
+.info-banner-text {
+  color: #4a3f00;
+  font-size: 12px;
+}
+
+/* Avatar */
+.avatar, .avatar-user {
+  background: #4caf50;
+  border-radius: 999px;
+  min-width: 32px;
+  min-height: 32px;
+}
+.avatar-user { background: #6d6dfd; }
+.avatar-label {
+  font-weight: bold;
+  color: #fff;
+  font-size: 13px;
+}
+
+/* Name labels (opposite accents) */
+.name-label {
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 2px;
+}
+.name-label-user { color: #4caf50; }
+.name-label-bot  { color: #6d6dfd; }
+
+/* Chat bubbles */
+.bubble-user, .bubble-bot {
+  border-radius: 16px;
+}
+.bubble-user { background: #d0eaff; }
+.bubble-bot  { background: #d8fcd8; }
+.bubble-label { color: #222; }
+
+/* Input bar wrappers */
+#InputContainer { background: transparent; }
+#InputWrapper {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 4px 6px;
+  border: 2px solid #1fa247;
+}
+#InputText {
+  font: 14px Sans;
+  color: #000;
+  background: transparent;
+  border: none;
+}
+#InputText:focus { outline: none; }
+
+/* Send button */
+#SendButton {
+  background: #62a0ea;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 4px;
+}
+
+/* Empty‑state */
+.empty-state {
+  color: #999;
+  font-size: 14px;
+  padding: 8px;
+}
+
+/* Placeholder inside the TextView overlay */
+.input-placeholder {
+  color: #aaa;
+  margin: 6px 0 0 10px; /* aligns with InputText padding */
+  font-style: italic;
+}
+
+#SendButton:hover { background: #3584e4; }
+#SendButton:active { background: #1a5fb4; }

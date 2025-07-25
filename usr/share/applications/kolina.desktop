@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kolina
+Exec=/usr/local/bin/kolina
+Icon=kolina
+Type=Application
+Categories=Utility;
+Terminal=false
+StartupWMClass=Kolina

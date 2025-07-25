@@ -1,0 +1,7 @@
+Package: kolina
+Version: 1.0
+Architecture: arm64
+Maintainer: Eigil <eigilurfetop@gmail.com>
+Section: utils
+Priority: optional
+Description: A small Linux assistant GUI chatbot for municipalities
