@@ -8,7 +8,7 @@ Kolina anvender **Mistral AI** som samtalemotor og slår pakker op direkte fra *
 
 ---
 
-## 🧰 Installation
+## Installation
 
 Appen er stadig under aktiv udvikling og distribueres manuelt. Du kan dog køre den direkte fra kildekoden:
 
@@ -22,7 +22,7 @@ python3 main.py
 
 ---
 
-## 🔑 Opsætning af Mistral API-nøgle
+## Opsætning af Mistral API-nøgle
 
 Før Kolina kan fungere, skal du bruge en gratis API-nøgle fra [mistral.ai](https://mistral.ai).
 
@@ -77,13 +77,13 @@ exec python3 main.py
 
 ---
 
-## 🔍 Ubuntu Pakkeopslag
+## Ubuntu Pakkeopslag
 
 Kolina registrerer automatisk, når brugeren spørger ind til pakkeinstallation. Den bruger Launchpad's API til at finde officielle beskrivelser og kommandoer for Ubuntu-pakker.
 
 ---
 
-## 🔒 Privatliv og Datasikkerhed
+## Privatliv og Datasikkerhed
 
 * Ingen data bliver gemt, logget eller delt.
 * Al databehandling foregår lokalt med Mistral AI som samtalemotor.
@@ -92,6 +92,6 @@ Kolina registrerer automatisk, når brugeren spørger ind til pakkeinstallation.
 
 ---
 
-## 📜 Licens
+## Licens
 
 Dette projekt er udgivet under [MIT-licensen](LICENSE).
