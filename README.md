@@ -34,7 +34,7 @@ I projektets rodmappe, opret en fil ved navn `.env` med dette indhold:
 MISTRAL_API_KEY=indsæt-din-nøgle-her
 ```
 
-Skriv dette ind i en terminal:
+Eller skriv dette ind i en terminal, men jeg anbefaler det første:
 ```bash
 export MISTRAL_API_KEY="indsæt-din-api-nøgle-her"
 ```
