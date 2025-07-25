@@ -34,6 +34,11 @@ I projektets rodmappe, opret en fil ved navn `.env` med dette indhold:
 MISTRAL_API_KEY=indsæt-din-nøgle-her
 ```
 
+Skriv dette ind i en terminal:
+```bash
+export MISTRAL_API_KEY="indsæt-din-api-nøgle-her"
+```
+
 ### Trin 2: Start appen med din nøgle
 
 Hvis du starter appen manuelt:
