@@ -4,11 +4,18 @@ Kolina er en letvægts, privatlivsvenlig Linux-assistent bygget med Python og GT
 
 Hvis du gerne vil have appen som en applikation i app launcheren, skal du selv compile den med rigtige API keys og alt det vigtige.
 
+## Indhold
+- [Installation](#installation)
+- [Sæt din Mistral API-nøgle op](#sæt-din-mistral-api-nøgle-op)
+- [Ubuntu Pakkeopslag](#ubuntu-pakkeopslag)
+- [Privatliv og Datasikkerhed](#privatliv-og-datasikkerhed)
+- [Licens](#licens)
+
 ---
 
 ## Installation
 
-Appen er stadig under aktiv udvikling og pakkes manuelt. Den kan køres direkte fra kildekoden:
+Appen er ikke færdigudviklet, og distribueres manuelt. Den kan køres direkte fra kildekoden:
 
 ```bash
 git clone https://github.com/fwitzz/kolina.git
@@ -41,6 +48,18 @@ export $(grep -v '^#' .env | xargs)
 python3 main.py
 ```
 
+Denne kommando: 
+
+```bash
+python3 main.py
+```
+
+burde køre appen, men for at køre den fra app-launcheren, skal du køre denne fra Root-directory (~/kolina):
+
+```bash
+kolina
+```
+
 Hvis du bruger en `.desktop`-fil til at starte appen, kan du også skrive:
 
 ```bash
@@ -52,9 +71,11 @@ i din startkommando.
 Du kan også sætte den til din PATH, for nemmere tilgang.
 
 Du skal desuden ændre filen kolina som sidder i:
+
 ```bash
 usr/local/bin/kolina
 ```
+
 Du skal indsætte din egen API-Nøgle i linjen der starter med "export", og fjerne linjen der starter med "echo".
 
 ```bash
