@@ -100,3 +100,9 @@ Kolina registrerer automatisk, når brugeren spørger ind til pakkeinstallation.
 ## Licens
 
 Dette projekt er udgivet under [MIT-licensen](LICENSE).
+
+
+# Roadmap:
+
+- Regenerering af svar
+- Redigering af tidligere svar
