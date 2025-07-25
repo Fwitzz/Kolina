@@ -1,15 +1,15 @@
-# Kolina – Din Linux Assistent 🇩🇰🐧
+# Kolina – Linux assistenten til kommuner og offentlige institutioner
 
 Kolina er en letvægts, privatlivsvenlig Linux-assistent bygget med Python og GTK3. Den er udviklet til at hjælpe kommunale ansatte og nye brugere under overgangen fra Windows til Linux. Kolina anvender Mistral AI som samtalemodel og slår pakker op i Ubuntu's officielle repositories.
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Appen er stadig under aktiv udvikling og pakkes manuelt. Den kan køres direkte fra kildekoden:
 
 ```bash
-git clone https://github.com/eigilurfetop/kolina.git
+git clone https://github.com/fwitzz/kolina.git
 cd kolina
 python3 main.py
 ```
@@ -18,7 +18,7 @@ python3 main.py
 
 ---
 
-## 🔑 Sæt din Mistral API-nøgle op
+## Sæt din Mistral API-nøgle op
 
 Før Kolina kan fungere, skal du bruge en Mistral API-nøgle fra [mistral.ai](https://mistral.ai).
 
@@ -49,13 +49,13 @@ i din startkommando.
 
 ---
 
-## 📆 Ubuntu Pakkeopslag
+## Ubuntu Pakkeopslag
 
 Kolina opdager automatisk, hvis du skriver spørgsmål om pakkeinstallation, og bruger Launchpad's API til at vise officielle beskrivelser og kommandoer.
 
 ---
 
-## 🔐 Privatliv og Datasikkerhed
+## Privatliv og Datasikkerhed
 
 * Ingen data bliver gemt, logget eller indsamlet
 * Bruger Mistral AI som samtalemotor
@@ -64,6 +64,6 @@ Kolina opdager automatisk, hvis du skriver spørgsmål om pakkeinstallation, og 
 
 ---
 
-## 📜 Licens
+## Licens
 
 MIT License
