@@ -2,6 +2,8 @@
 
 Kolina er en letvægts, privatlivsvenlig Linux-assistent bygget med Python og GTK3. Den er udviklet til at hjælpe kommunale ansatte og nye brugere under overgangen fra Windows til Linux. Kolina anvender Mistral AI som samtalemodel og slår pakker op i Ubuntu's officielle repositories.
 
+Hvis du gerne vil have appen som en applikation i app launcheren, skal du selv compile den med rigtige API keys og alt det vigtige.
+
 ---
 
 ## Installation
