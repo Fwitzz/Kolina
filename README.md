@@ -106,3 +106,5 @@ Dette projekt er udgivet under [MIT-licensen](LICENSE).
 
 - Regenerering af svar
 - Redigering af tidligere svar
+- Mulighed for at gemme samtaler (lokalt)
+- Gemme tidligere samtaler på disk (lokalt, ingen backend)
