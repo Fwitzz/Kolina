@@ -1,6 +1,6 @@
 Package: kolina
 Version: 1.0
-Architecture: arm64
+Architecture: all
 Maintainer: Eigil <eigilurfetop@gmail.com>
 Section: utils
 Priority: optional
