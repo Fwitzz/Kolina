@@ -48,7 +48,7 @@ export $(grep -v '^#' .env | xargs)
 python3 main.py
 ```
 
-Alternativt kan du sætte miljøvariablen direkte i terminalen:
+Alternativt kan du sætte env variable direkte i terminalen:
 
 ```bash
 export MISTRAL_API_KEY="indsæt-din-nøgle-her"
